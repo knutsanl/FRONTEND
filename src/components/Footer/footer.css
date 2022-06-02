@@ -1,0 +1,15 @@
+footer{
+    background-color: #ACBC97;
+    padding: 1%;
+    height: 150px;
+}
+.footerInfo, .footerImg{
+    display: inline-block;
+    width: 45%;
+    color:white;
+}
+
+.footerImg img{
+    width:40%;
+    padding: 20px;
+}

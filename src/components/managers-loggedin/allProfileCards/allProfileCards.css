@@ -1,0 +1,12 @@
+.allProfileCardsCardsContainer {
+  padding: 3em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "card card card card";
+  grid-gap: 1em 0;
+  justify-items: center;
+}
+.allUsersh1 {
+  margin-left: 50px;
+}

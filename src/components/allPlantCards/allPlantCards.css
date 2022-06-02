@@ -1,0 +1,13 @@
+.allPlantCardsCardsContainer{
+    padding: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "card card card";
+    grid-gap: 1em 0;
+    justify-items: center;
+}
+
+.allPlantCardsMainContainer h1{
+    margin-left: 50px;
+}

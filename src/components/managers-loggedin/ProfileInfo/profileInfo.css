@@ -1,0 +1,29 @@
+@import "../../../colorPalette.css";
+
+#user-profile-main{
+    width: 50%;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.profile-user-button{
+    background-color: var(--buttons-and-header);
+    border:none;
+    outline:none;
+    color:white;
+    display:block;
+    margin: 10px auto;
+    padding: 15px 30px;
+    width:30%;
+}
+
+#user-profile-main a{
+    text-decoration: none;
+}
+
+#delete-user-button:hover, #edit-user-button:hover{
+    background-color: var(--button-hover);
+}

@@ -1,0 +1,45 @@
+@import "../../colorPalette.css";
+
+#plant_info_box {
+  width:80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+#plant_info_h1 {
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-bottom: 8%;
+}
+
+#plant_info_P_box{
+  width:50%;
+}
+
+#plant_info_P_box_R {
+  width:50%;
+}
+
+#plant_info_P_box_R .plant-info-buttons{
+  display:inline-block;
+}
+
+.plant_info_img{
+  height:auto;
+  width:80%;
+}
+
+.plant-info-buttons{
+  background-color: var(--buttons-and-header);
+  border:none;
+  outline:none;
+  color:white;
+  display:block;
+  margin: 20px 50px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.plant-info-buttons:hover{
+  background-color:var(--button-hover);
+}

@@ -1,0 +1,28 @@
+@import "../../colorPalette.css";
+
+.notificationMainContainer{
+    width:80%;
+    margin: 0 auto 50px auto;
+}
+
+
+
+
+
+/*each card style:*/
+.notificationCard{
+    background-color: var(--notification);
+    color:white;
+    padding:5px; 
+    margin-top: 10px;
+    display:flex;
+}
+
+.notifCardText{
+    width:80%;
+}
+
+.notifDelete{
+    display:flex;
+    align-items: center;
+}

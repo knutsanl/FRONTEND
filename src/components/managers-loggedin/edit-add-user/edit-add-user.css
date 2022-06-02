@@ -1,0 +1,41 @@
+@import "../../../colorPalette.css";
+
+.add-user-main{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.add-user-main h1{
+    margin-bottom: 50px;
+}
+
+.user-formfield{
+    background-color: var(--inputfields);
+    border:none;
+    outline:none;
+    width:100%;
+    padding:5px;
+    display:block;
+}
+
+#save-user-button{
+    background-color: var(--buttons-and-header);
+    border:none;
+    outline:none;
+    color:white;
+    display:block;
+    margin: 10px auto;
+    padding: 15px 30px;
+}
+
+#save-user-button:hover{
+    background-color:var(--button-hover);
+}
+
+#manager-option{
+    margin-left: 10px;
+}
+
+.radio-input, .user-formfield{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,14 @@
+/* Color palette, import link: @import "../../colorPalette.css"; */
+
+body {
+    background-color: #FCFFEA;
+}
+
+:root{
+    --main-background: #FCFFEA;
+    --buttons-and-header:#EFCA9E;
+    --cards-and-footer:#ACBC97;
+    --inputfields:#D9DEB9;
+    --button-hover: #b19574;
+    --notification: #e49954;
+}

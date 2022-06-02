@@ -1,0 +1,13 @@
+@import "../../colorPalette.css";
+
+.welcome-page{
+    width:50%;
+    margin:0 auto 100px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.welcome-page h1{
+    text-align: center;
+    margin: 2em;
+}

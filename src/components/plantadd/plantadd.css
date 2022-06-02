@@ -1,0 +1,37 @@
+
+#plantadd_box {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.plantadd_input_box {
+  margin:0;
+  width:55%;
+  display:inline-block;
+}
+
+.plantadd-buttons{
+  background-color: var(--buttons-and-header);
+  border:none;
+  outline:none;
+  color:white;
+  display:block;
+  margin: 10px auto;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.plantadd-buttons:hover{
+  background-color:var(--button-hover);
+}
+
+.plantadd_input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  background-color: #D9DEB9;
+}
+
+.plantadd_img{
+  width:40%;
+}

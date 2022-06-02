@@ -1,0 +1,20 @@
+@import "../../../colorPalette.css";
+
+.profileCard{
+  background-color:var(--cards-and-footer);
+  color: white;
+  font-family: Helvetica;
+  max-width: 100%;
+  min-width: 90%;
+  padding: 0 7px;
+  border: solid white 2px;
+}
+
+.profileCard *{
+  color:white;
+  text-decoration: none;
+}
+
+.profileCard:hover{
+  border: solid rgb(126, 126, 126) 2px;
+}
